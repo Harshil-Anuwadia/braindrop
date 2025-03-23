@@ -1,0 +1,16 @@
+php_value upload_max_filesize 30M
+php_value post_max_size 32M
+php_value max_execution_time 300
+php_value max_input_time 300
+php_value memory_limit 256M
+
+RewriteEngine On
+
+# Redirect requests without .php extension to the corresponding PHP file
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# Optional: Redirect users to HTTPS (if applicable)
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_ URI} [L,R=301]
