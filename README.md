@@ -1,4 +1,4 @@
-![BrainDrop Logo](https://braindrop.me/assets/img/icons8-heygen-1024.png)
+![BrainDrop Logo](https://harshil-anuwadia.github.io/assets/img/icons8-heygen-1024.png)
 
 BrainDrop is a platform that offers AI model training services to businesses and developers. Our platform allows you to upload your data, including photos, videos, and audio, which we then use to train custom AI models tailored to your needs.
 
@@ -28,7 +28,7 @@ BrainDrop aims to make AI model training accessible and affordable for businesse
 ## Getting Started
 
 To get started with BrainDrop, follow these steps:
-1. Sign up for an account on [our website](https://braindrop.me).
+1. Sign up for an account on [our website](https://harshil-anuwadia.github.io).
 2. Upload your data to the platform.
 3. Select the AI model type you want to train.
 4. Configure the training parameters and start the training process.
